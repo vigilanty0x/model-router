@@ -124,7 +124,7 @@ Exit code `2` means invalid input, `3` means mission not found, and `4` means in
 ```bash
 python scripts/check.py
 python -m unittest discover -s tests -v
-python -m pip wheel . --no-deps --no-build-isolation --wheel-dir /tmp/wheel
+python -m pip wheel . --no-deps --wheel-dir /tmp/wheel
 ```
 
 See [Architecture](docs/ARCHITECTURE.md), [SQLite schema](docs/SCHEMA.md), [Security policy](SECURITY.md), and [AI assistance disclosure](AI_ASSISTANCE.md).
